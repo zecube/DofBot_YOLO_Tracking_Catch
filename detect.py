@@ -242,4 +242,4 @@ if __name__ == "__main__":
 #Just copy the text below and type it into the terminal
 #Change "runs/train/fruit_yolov5s_more_result2/weights/best.pt" to your dataset path to use your dataset
 
-#python detect.py --weight runs/train/fruit_yolov5s_more_result2/weights/best.pt --source 0
+#python detect.py --nosave --weight runs/train/fruit_yolov5s_more_result2/weights/best.pt --source 0
