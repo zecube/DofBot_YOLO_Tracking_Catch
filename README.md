@@ -26,3 +26,20 @@ So use YOLOv5 to make your own dataset and put it in Dofbot.
 
 * opencv : 4.1.2 with cuda
 
+Ignore Dofbot's basic environment and requirements and set them as above.
+
+# Core file
+
+3 files form the core. [ _**detect.py / detect_tracking_object.py / detect_catch_object.py**_ ]
+
+* detect.py
+
+The robot arm is fixed and recognizes and displays objects through the Dofbot's camera.
+
+* detect_tracking_object.py
+
+The robot arm tracks and moves the recognized object.
+
+* detect_catch_object.py
+
+The robot arm extends toward the recognized object and performs a grasping motion.
