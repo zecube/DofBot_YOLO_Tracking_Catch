@@ -280,7 +280,8 @@ if __name__ == "__main__":
     opt = parse_opt()
     main(opt)
 
-#subprocess.run(['python', 'detect22.py', '--weight', 'runs/train/fruit_yolov5s_more_result2/weights/best.pt', '--source', '0'])
+#subprocess.run(['python', 'detect_tracking_object.py', '--weight', 'runs/train/fruit_yolov5s_more_result2/weights/best.pt', '--source', '0'])
 
 #Just copy the text below and type it into the terminal
+#Change "runs/train/fruit_yolov5s_more_result2/weights/best.pt" to your dataset path to use your dataset
 #python detect_tracking_object.py --nosave --weight runs/train/fruit_yolov5s_more_result2/weights/best.pt --source 0

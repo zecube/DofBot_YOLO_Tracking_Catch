@@ -1,28 +1,3 @@
-# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
-"""
-Run inference on images, videos, directories, streams, etc.
-
-Usage - sources:
-    $ python path/to/detect.py --weights yolov5s.pt --source 0              # webcam
-                                                             img.jpg        # image
-                                                             vid.mp4        # video
-                                                             path/          # directory
-                                                             path/*.jpg     # glob
-                                                             'https://youtu.be/Zgi9g1ksQHc'  # YouTube
-                                                             'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
-
-Usage - formats:
-    $ python path/to/detect.py --weights yolov5s.pt                 # PyTorch
-                                         yolov5s.torchscript        # TorchScript
-                                         yolov5s.onnx               # ONNX Runtime or OpenCV DNN with --dnn
-                                         yolov5s.xml                # OpenVINO
-                                         yolov5s.engine             # TensorRT
-                                         yolov5s.mlmodel            # CoreML (MacOS-only)
-                                         yolov5s_saved_model        # TensorFlow SavedModel
-                                         yolov5s.pb                 # TensorFlow GraphDef
-                                         yolov5s.tflite             # TensorFlow Lite
-                                         yolov5s_edgetpu.tflite     # TensorFlow Edge TPU
-"""
 import subprocess
 import argparse
 import os
@@ -263,4 +238,8 @@ if __name__ == "__main__":
     main(opt)
 
 #subprocess.run(['python', '.\detect.py', '--weight', './runs/train/fruit_yolov5s_more_result2/weights/best.pt', '--source', '0'])
+
+#Just copy the text below and type it into the terminal
+#Change "runs/train/fruit_yolov5s_more_result2/weights/best.pt" to your dataset path to use your dataset
+
 #python detect.py --weight runs/train/fruit_yolov5s_more_result2/weights/best.pt --source 0
