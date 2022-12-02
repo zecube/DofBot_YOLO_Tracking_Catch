@@ -46,6 +46,9 @@ The robot arm extends toward the recognized object and performs a grasping motio
 
 # How to use
 
+1. Download all of the project files and put them in Dofbot.
+2. Run the file that fits your purpose and follow the instructions below
+
 All three files have a statement at the bottom that needs to be copied, and you can replace the path to the dataset and copy it to the terminal and type it.
 
 
