@@ -26,7 +26,7 @@ So use YOLOv5 to make your own dataset and put it in Dofbot.
 
 * opencv : 4.1.2 with cuda
 
-Ignore Dofbot's basic environment and requirements and set them as above.
+*Instead of using the version of the module installed by default in the OS, install the corresponding version above on the dofbot.*
 
 # Core file
 
@@ -43,3 +43,28 @@ The robot arm tracks and moves the recognized object.
 * detect_catch_object.py
 
 The robot arm extends toward the recognized object and performs a grasping motion.
+
+# How to use
+
+All three files have a statement at the bottom that needs to be copied, and you can replace the path to the dataset and copy it to the terminal and type it.
+
+
+* detect.py
+
+```
+python detect.py --nosave --weight runs/train/fruit_yolov5s_more_result2/weights/best.pt --source 0
+```
+
+* detect_tracking_object.py
+
+```
+python detect_tracking_object.py --nosave --weight runs/train/fruit_yolov5s_more_result2/weights/best.pt --source 0
+```
+
+* detect_catch_object.py
+
+```
+python detect_catch_object.py --nosave --weight runs/train/fruit_yolov5s_more_result2/weights/best.pt --source 0
+```
+
+Make sure to remove the " # " in front of the code and enter it in the terminal.
