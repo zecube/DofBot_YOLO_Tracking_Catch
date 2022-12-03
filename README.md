@@ -77,3 +77,5 @@ Make sure to remove the " # " in front of the code and enter it in the terminal.
 For the test, I learned about 30 simple chapters. For basic tracking of YOLOv5, I recommend learning more than 1000 images.
 
 ![stst](https://user-images.githubusercontent.com/117415885/205296864-4177549f-84d1-4df6-8b78-a2b8e5621643.png)
+
+![trtr](https://user-images.githubusercontent.com/117415885/205426970-f748aca3-269f-46e0-9bfb-9a49de2d63f1.png)
