@@ -74,7 +74,7 @@ Make sure to remove the " # " in front of the code and enter it in the terminal.
 
 # Running image
 
-For the test, I learned about 30 simple chapters. For basic tracking of YOLOv5, I recommend learning more than 1000 images.
+For the test, I learned about 100 simple chapters. For basic tracking of YOLOv5, I recommend learning more than 1000 images.
 
 ![Untitled-1](https://github.com/zecube/DofBot_YOLO_Tracking_Catch/assets/117415885/b550fe3f-402b-4ab4-bc9b-5156b28dbadf)
 
