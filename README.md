@@ -83,4 +83,6 @@ For the test, I learned about 30 simple chapters. For basic tracking of YOLOv5, 
 
 # Running Video
 
+Just Click the Thumbnail
+
 [![Video Label](http://img.youtube.com/vi/yIqBl2SDZG8/0.jpg)](https://youtu.be/yIqBl2SDZG8)
